@@ -198,55 +198,56 @@ export default function Home() {
               react-hook-form
             </a>
             .
-            <pre className="bg-gray-700 text-white break-all rounded-lg p-4 my-2 whitespace-pre-wrap">
-              <div>
-                import {"{"} FieldValues, UseControllerProps,
-                useController&nbsp;
-                {"}"}
-              </div>
-              <div> from &apos;react-hook-form&apos;;</div>
-              <br />
-              <div>export type BaseOption = {"{"}</div>
-              <div>&ensp;label: string;</div>
-              <div>&ensp;value: string;</div>
-              <div>{"}"};</div>
-              <br />
-              <div>type FormSelectProps{"<"}</div>
-              <div>&ensp;FormData extends FieldValues,</div>
-              <div>&ensp;Option extends BaseOption,</div>
-              <div>
-                {">"} = {"{"}
-              </div>
-              <div>
-                &ensp;controllerProps: UseControllerProps{"<"}FormData{">"}
-              </div>
-              <div>&ensp;options: Option[]</div>
-              <div>
-                {"}"} &amp; BaseFormProps;{" "}
-                <span className="text-gray-400">
-                  {"/"}
-                  {"/"} Whatever base props you have
-                </span>
-              </div>
-              <br />
-              <div>const FormSelect = {"<"}</div>
-              <div>&ensp;FormData extends FieldValues,</div>
-              <div>&ensp;Option extends BaseOption,</div>
-              <div>
-                {">"}({"{"}
-              </div>
-              <div>&ensp;controllerProps,</div>
-              <div>&ensp;options,</div>
-              <div>&ensp;...formControllerProps,</div>
-              <div>
-                {"}"}: FormSelectProps{"<"}FormData, Option{">"}) ={">"} {"{"}
-              </div>
-              <div>&ensp;const {"{"}</div>
-              <div>
-                &ensp;&ensp;fieldState: {"{"} error {"}"} =
-              </div>
-              <div>&ensp;useController(controllerProps);</div>
-            </pre>
+          </p>
+          <pre className="bg-gray-700 text-white break-all rounded-lg p-4 my-2 whitespace-pre-wrap">
+            <div>
+              import {"{"} FieldValues, UseControllerProps, useController&nbsp;
+              {"}"}
+            </div>
+            <div> from &apos;react-hook-form&apos;;</div>
+            <br />
+            <div>export type BaseOption = {"{"}</div>
+            <div>&ensp;label: string;</div>
+            <div>&ensp;value: string;</div>
+            <div>{"}"};</div>
+            <br />
+            <div>type FormSelectProps{"<"}</div>
+            <div>&ensp;FormData extends FieldValues,</div>
+            <div>&ensp;Option extends BaseOption,</div>
+            <div>
+              {">"} = {"{"}
+            </div>
+            <div>
+              &ensp;controllerProps: UseControllerProps{"<"}FormData{">"}
+            </div>
+            <div>&ensp;options: Option[]</div>
+            <div>
+              {"}"} &amp; BaseFormProps;{" "}
+              <span className="text-gray-400">
+                {"/"}
+                {"/"} Whatever base props you have
+              </span>
+            </div>
+            <br />
+            <div>const FormSelect = {"<"}</div>
+            <div>&ensp;FormData extends FieldValues,</div>
+            <div>&ensp;Option extends BaseOption,</div>
+            <div>
+              {">"}({"{"}
+            </div>
+            <div>&ensp;controllerProps,</div>
+            <div>&ensp;options,</div>
+            <div>&ensp;...formControllerProps,</div>
+            <div>
+              {"}"}: FormSelectProps{"<"}FormData, Option{">"}) ={">"} {"{"}
+            </div>
+            <div>&ensp;const {"{"}</div>
+            <div>
+              &ensp;&ensp;fieldState: {"{"} error {"}"} =
+            </div>
+            <div>&ensp;useController(controllerProps);</div>
+          </pre>
+          <p>
             The controllerProps can then be fed to the&nbsp;
             <code className="bg-gray-700 font-mono">Controller</code>
             &nbsp;base component from react-hook-form and we&apos;ll have type
