@@ -47,7 +47,10 @@ export default function Home() {
             I&apos;ve worked on and my infectious enthusiasm to get things
             right.
           </p>
-          <h3 className="text-xl py-2 text-gray-50">For Starters</h3>
+          <div className="relative">
+            <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
+            <h3 className="text-xl py-2 text-gray-50">For Starters</h3>
+          </div>
           <p>
             My programming fundamentals started in the world of Java as I worked
             on getting my CS Degree and my first programming job. This really
@@ -86,7 +89,10 @@ export default function Home() {
             pair programming. I probably wouldn&apos;t do mobbing every day
             though...
           </p>
-          <h3 className="text-xl py-2 text-gray-50">The Journey</h3>
+          <div className="relative">
+            <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
+            <h3 className="text-xl py-2 text-gray-50">The Journey</h3>
+          </div>
           <p>
             I love to learn about new technologies. I follow many Tech
             &quot;Influencers&quot; on YouTube and Twitter just to try to stay
@@ -140,9 +146,12 @@ export default function Home() {
               (Link to Code)
             </a>
           </div>
-          <h3 className="text-xl py-2 text-gray-50">
-            Lease End <span className="text-sm">(my current 9-5)</span>
-          </h3>
+          <div className="relative">
+            <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
+            <h3 className="text-xl py-2 text-gray-50">
+              Lease End <span className="text-sm">(my current 9-5)</span>
+            </h3>
+          </div>
           <p>
             The AOE Build Orders project actually was a big help to get a job at
             my current company,&nbsp;
@@ -252,7 +261,10 @@ export default function Home() {
             eyes. As much as I love to help others learn and grow, I love it
             even more when others help me to learn and grow as well.
           </p>
-          <h3 className="text-xl py-2 text-gray-50">Rust</h3>
+          <div className="relative">
+            <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
+            <h3 className="text-xl py-2 text-gray-50">Rust</h3>
+          </div>
           <p>
             In my quest to learn new things, everywhere I looked, Rust was
             staring back at me. I decided to pick it up and do a couple&nbsp;
@@ -320,7 +332,10 @@ export default function Home() {
             </a>
             .
           </p>
-          <h3 className="text-xl py-2 text-gray-50">The End</h3>
+          <div className="relative">
+            <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
+            <h3 className="text-xl py-2 text-gray-50">The End</h3>
+          </div>
           <p>
             Thank you for taking the time to read through all of this! I am
             based in the Mountain Time Zone but am willing to work odd hours to
