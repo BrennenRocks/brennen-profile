@@ -158,10 +158,90 @@ export default function Home() {
             developers in many ways. I thoroughly enjoy writing TypeScript and
             one of my first refactors that I participated in was updating all of
             our models to actually be typed instead of using the dreaded&nbsp;
-            <span className="bg-gray-700 font-mono">
+            <code className="bg-gray-700 font-mono">
               {"{"} [x: any]: any; {"}"}
-            </span>
-            &nbsp; to define all fields.
+            </code>
+            &nbsp; to define all fields. I also like to write out my TypeSript
+            learnings and hints on X. Here is one example:&nbsp;
+            <a
+              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              href="https://twitter.com/Elevated_SW/status/1703997894674846153"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Generic for Promise.allSettled
+            </a>
+            . It is a pretty simple use of a generic but it brings some type
+            safety to a common Promise function. This does create more memory so
+            maybe not the best practice when you are focusing purley on
+            performance but I have found this little function to be very helpful
+            in our projects with many fresh TypeScript devs.
+          </p>
+          <p>
+            I also find a lot of use for generics in React when creating custom
+            Form Components while using a form library. This example uses&nbsp;
+            <a
+              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              href="https://react-hook-form.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              react-hook-form
+            </a>
+            .
+            <pre className="bg-gray-700 text-white break-all rounded-lg p-4 my-2">
+              <div>
+                import {"{"} FieldValues, UseControllerProps,
+                useController&nbsp;
+                {"}"}
+              </div>
+              <div> from &apos;react-hook-form&apos;;</div>
+              <br />
+              <div>export type BaseOption = {"{"}</div>
+              <div>&ensp;label: string;</div>
+              <div>&ensp;value: string;</div>
+              <div>{"}"};</div>
+              <br />
+              <div>type FormSelectProps{"<"}</div>
+              <div>&ensp;FormData extends FieldValues,</div>
+              <div>&ensp;Option extends BaseOption,</div>
+              <div>
+                {">"} = {"{"}
+              </div>
+              <div>
+                &ensp;controllerProps: UseControllerProps{"<"}FormData{">"}
+              </div>
+              <div>&ensp;options: Option[]</div>
+              <div>
+                {"}"} &amp; BaseFormProps;{" "}
+                <span className="text-gray-400">
+                  {"/"}
+                  {"/"} Whatever base props you have
+                </span>
+              </div>
+              <br />
+              <div>const FormSelect = {"<"}</div>
+              <div>&ensp;FormData extends FieldValues,</div>
+              <div>&ensp;Option extends BaseOption,</div>
+              <div>
+                {">"}({"{"}
+              </div>
+              <div>&ensp;controllerProps,</div>
+              <div>&ensp;options,</div>
+              <div>&ensp;...formControllerProps,</div>
+              <div>
+                {"}"}: FormSelectProps{"<"}FormData, Option{">"}) ={">"} {"{"}
+              </div>
+              <div>&ensp;const {"{"}</div>
+              <div>
+                &ensp;&ensp;fieldState: {"{"} error {"}"} =
+              </div>
+              <div>&ensp;useController(controllerProps);</div>
+            </pre>
+            The controllerProps can then be fed to the&nbsp;
+            <code className="bg-gray-700 font-mono">Controller</code>
+            &nbsp;base component from react-hook-form and we&apos;ll have type
+            safety to auto complete the fields of the form.
           </p>
           <p>
             Not only am I known at Lease End as the TypeScript guy but also the
@@ -244,28 +324,9 @@ export default function Home() {
           <p>
             Thank you for taking the time to read through all of this! I am
             based in the Mountain Time Zone but am willing to work odd hours to
-            make it work. I also need to apologize for one more thing... A
-            couple years ago we were using styled-components at Lease End and I
-            convinced the teams to move away from it but I fought to move to
-            Chakra UI. This was before I knew what&nbsp;
-            <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
-              href="https://github.com/dcastil/tailwind-merge"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Tailwind-Merge
-            </a>
-            &nbsp;was and I don&apos;t even think&nbsp;
-            <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
-              href="https://cva.style/docs"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CVA
-            </a>
-            &nbsp; was a thing yet. I am sorry for my ignorance haha
+            make it work. I now use Tailwind CSS for all of my personal projects
+            and anything where I want to write CSS fast without thinking too
+            hard about it.
           </p>
         </div>
       </div>
