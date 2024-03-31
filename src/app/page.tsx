@@ -20,7 +20,7 @@ export default function Home() {
             <h1 className="font-bold text-4xl lg:text-6xl">Brennen Davis</h1>
             <div className="flex space-x-3 lg:space-x-12">
               <a
-                className="text-gray-300 pointer-events-none flex place-items-center gap-1 lg:gap-2  lg:pointer-events-auto lg:p-0 hover:text-gray-50"
+                className="text-gray-300 flex place-items-center gap-1 lg:gap-2 lg:p-0 hover:text-gray-50"
                 href="https://github.com/BrennenRocks"
                 target="_blank"
                 rel="noreferrer"
@@ -29,7 +29,7 @@ export default function Home() {
                 <div>Github</div>
               </a>
               <a
-                className="text-gray-300 pointer-events-none flex place-items-center gap-1 lg:gap-2 lg:pointer-events-auto lg:p-0 hover:text-gray-50"
+                className="text-gray-300 flex place-items-center gap-1 lg:gap-2 lg:p-0 hover:text-gray-50"
                 href="https://twitter.com/Elevated_SW"
                 target="_blank"
                 rel="noreferrer"
@@ -66,7 +66,7 @@ export default function Home() {
             build a REST API wrapper around the desktop API.
           </p>
           <a
-            className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+            className="hover:text-gray-50 underline"
             href="https://github.com/BrennenRocks/fishbowl-js"
             target="_blank"
             rel="noreferrer"
@@ -78,7 +78,7 @@ export default function Home() {
             where I got my open-source chops and a taste for creating tools to
             help other developers. At Fishbowl we also wrote code as a&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://www.agilealliance.org/glossary/mob-programming/"
               target="_blank"
               rel="noreferrer"
@@ -109,7 +109,7 @@ export default function Home() {
               through it. I must apologize to Robin that I enjoy Chakra UIs
               string-based API. Huge props to&nbsp;
               <a
-                className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+                className="hover:text-gray-50 underline"
                 href="https://github.com/segunadebayo"
                 target="_blank"
                 rel="noreferrer"
@@ -129,7 +129,7 @@ export default function Home() {
           </p>
           <div>
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://taupe-gingersnap-1b60d9.netlify.app/"
               target="_blank"
               rel="noreferrer"
@@ -138,7 +138,7 @@ export default function Home() {
             </a>
             &nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://github.com/Elevated-Software/aoe-build-order"
               target="_blank"
               rel="noreferrer"
@@ -156,7 +156,7 @@ export default function Home() {
             The AOE Build Orders project actually was a big help to get a job at
             my current company,&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://www.leaseend.com/"
               target="_blank"
               rel="noreferrer"
@@ -173,7 +173,7 @@ export default function Home() {
             &nbsp; to define all fields. I also like to write out my TypeSript
             learnings and hints on X. Here is one example:&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://twitter.com/Elevated_SW/status/1703997894674846153"
               target="_blank"
               rel="noreferrer"
@@ -190,7 +190,7 @@ export default function Home() {
             I also find a lot of use for generics in React when creating custom
             Form Components while using a form library. This example uses&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://react-hook-form.com/"
               target="_blank"
               rel="noreferrer"
@@ -270,7 +270,7 @@ export default function Home() {
             In my quest to learn new things, everywhere I looked, Rust was
             staring back at me. I decided to pick it up and do a couple&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://frontendmasters.com/"
               target="_blank"
               rel="noreferrer"
@@ -279,7 +279,7 @@ export default function Home() {
             </a>
             &nbsp;courses from none other than&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://twitter.com/ThePrimeagen"
               target="_blank"
               rel="noreferrer"
@@ -295,7 +295,7 @@ export default function Home() {
             As the AI hype train is still going strong I decided to hop aboard
             and learn what&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://ollama.com/"
               target="_blank"
               rel="noreferrer"
@@ -305,7 +305,7 @@ export default function Home() {
             &nbsp;is all about so I could test AI models locally. I&apos;ve been
             working on an AI Photo Renamer desktop app using&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://tauri.app/"
               target="_blank"
               rel="noreferrer"
@@ -314,7 +314,7 @@ export default function Home() {
             </a>
             &nbsp;with React and&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://ui.shadcn.com/"
               target="_blank"
               rel="noreferrer"
@@ -324,7 +324,7 @@ export default function Home() {
             &nbsp;on the front end with, of course, a Rust backend to hook into
             Ollama. Check that out here!&nbsp;
             <a
-              className="pointer-events-none lg:pointer-events-auto hover:text-gray-50 underline"
+              className="hover:text-gray-50 underline"
               href="https://twitter.com/Elevated_SW/status/1772501048067772778"
               target="_blank"
               rel="noreferrer"
