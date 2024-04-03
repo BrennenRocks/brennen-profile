@@ -340,9 +340,10 @@ export default function Home() {
           <p>
             Thank you for taking the time to read through all of this! I am
             based in the Mountain Time Zone but am willing to work odd hours to
-            make it work. I now use Tailwind CSS for all of my personal projects
-            and anything where I want to write CSS fast without thinking too
-            hard about it.
+            make it work. There have even been talks of moving to the East
+            Coast. I now use Tailwind CSS for all of my personal projects and
+            anything where I want to write CSS fast without thinking too hard
+            about it.
           </p>
         </div>
       </div>
