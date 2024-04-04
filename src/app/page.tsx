@@ -319,7 +319,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              shadcn UI
+              Shadcn UI
             </a>
             &nbsp;on the front end with, of course, a Rust backend to hook into
             Ollama. Check that out here!&nbsp;
@@ -332,6 +332,38 @@ export default function Home() {
               AI Photo Rename
             </a>
             .
+          </p>
+          <p>
+            I have also built a little&nbsp;
+            <a
+              className="hover:text-gray-50 underline"
+              href="https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              RAG
+            </a>
+            &nbsp;application at work that uses&nbsp;
+            <a
+              className="hover:text-gray-50 underline"
+              href="https://www.trychroma.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ChromaDB
+            </a>
+            &nbsp;as a vector database to store all of our tickets and then 
+            I use&nbsp;
+            <a
+              className="hover:text-gray-50 underline"
+              href="https://ollama.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ollama
+            </a>
+            &nbsp;to interact with it. You can ask it if our application has a certain feature 
+            or more details about the specific ticket in mind.
           </p>
           <div className="relative">
             <div className="absolute top-[17px] -left-5 h-2 w-2 bg-violet-400 rotate-45"></div>
